@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json
+
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      heroku-app:
+        connectTimeout: 5000
+        readTimeout: 5000
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs

@@ -1,0 +1,10 @@
+herokuApp:
+  url: https://bpdts-test-app.herokuapp.com
+
+geocode:
+  cityMap:
+    London:
+        latitude: 51.509865
+        longitude: -0.118092
+
+
