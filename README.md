@@ -1,5 +1,5 @@
 # ppl_london
-Spring Boot REST API to search people living in given city or within given number of miles. This api connects to https://bpdts-test-app.herokuapp.com/ get the data feed.
+Spring Boot REST API to search people living in given city or within given number of miles. This api connects to https://bpdts-test-app.herokuapp.com/ to get the data feed.
 
 ## Versions
 
